@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Bryan Wodi"
 title_separator          : "-"
 name                     : &name "Bryan Wodi"
-description              : &description "M.Sc. in Computer Science from the University of Manitoba."
+description              : &description "Software engineer building tools that free your data from big tech."
 url                      : https://talk2bryan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "talk2bryan.github.io"
@@ -70,7 +70,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : 
 
@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Bryan Wodi"
   avatar           : "profile.png"
-  bio              : "M.Sc. in Computer Science from the University of Manitoba."
+  bio              : "Software engineer. M.Sc. in Computer Science, University of Manitoba. I build tools that free your data."
   location         : "North America"
   employer         : 
   googlescholar    : "https://scholar.google.ca/citations?user=rDiIWTQAAAAJ&hl=en"
@@ -172,12 +172,6 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
     output: true
     permalink: /:collection/:path/
 
